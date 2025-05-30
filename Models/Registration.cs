@@ -1,10 +1,11 @@
-﻿namespace RegistrationApi.Models
+﻿namespace RegistrationAPI.Models
 {
     public class Registration
     {
         public int Id { get; set; }
-        public string ParticipantName { get; set; }
-        public string Email { get; set; }
         public int EventId { get; set; }
+        public string AttendeeName { get; set; }
+        public string AttendeeEmail { get; set; }
+        public DateTime RegistrationDate { get; set; }
     }
 }
